@@ -1,0 +1,9 @@
+{
+    "minVersion": "0.8",
+    "refmap": "advent-ascension-guard.refmap.json",
+    "package": "rmc.mixins.advent_ascension_guard.inject",
+    "mixins": [
+        "BaseBulletMixin",
+        "CoralStaffMixin"
+    ]
+}
