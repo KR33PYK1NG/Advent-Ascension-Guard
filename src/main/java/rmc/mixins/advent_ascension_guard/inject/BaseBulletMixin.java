@@ -20,7 +20,7 @@ public abstract class BaseBulletMixin {
             cancellable = true,
             at = @At(value = "HEAD"))
     private void guardShotImpact(EntityRayTraceResult rayTrace, CallbackInfo mixin) {
-        if (!EventFactory.testEntityInteract(EventFactory.convert(((BaseBullet)(Object) this).getOwner()), ((BaseBullet)(Object) this).getOwner().level, rayTrace.getEntity())) {
+        if (!EventFactory.testEntityInteract(EventFactory.convert(((BaseBullet)(Object) this).getOwner()), ((BaseBullet)(Object) this).level, rayTrace.getEntity())) {
             mixin.cancel();
         }
     }

@@ -5,7 +5,7 @@ val rmcRepoPass: String by project
 
 val rmcGroup = "rmc.mixins"
 val rmcArtifact = "advent-ascension-guard"
-val rmcVersion = "1.0.0"
+val rmcVersion = "1.0.1"
 val rmcBaseName = "Advent-Ascension-Guard"
 
 setGroup(rmcGroup)
